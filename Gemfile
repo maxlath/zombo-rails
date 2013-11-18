@@ -1,4 +1,11 @@
 source 'https://rubygems.org'
+<<<<<<< HEAD
+=======
+ruby '2.0.0'
+
+# Use sqlite3 as the database for Active Record
+
+>>>>>>> 5dc79c2c38746f8841df4a0884e5ba8cb7d2bf0d
 ruby '2.0.0'
 #ruby-gemset=railstutorial_rails_4_0
 
@@ -23,3 +30,22 @@ group :production do
   gem 'pg', '0.15.1'
   gem 'rails_12factor', '0.0.2'
 end
+<<<<<<< HEAD
+=======
+
+#Added by Max to avoid 'method missing' errors
+gem 'actionmailer'
+gem 'activerecord'
+
+# Use ActiveModel has_secure_password
+# gem 'bcrypt-ruby', '~> 3.1.2'
+
+# Use unicorn as the app server
+# gem 'unicorn'
+
+# Use Capistrano for deployment
+# gem 'capistrano', group: :development
+
+# Use debugger
+# gem 'debugger', group: [:development, :test]
+>>>>>>> 5dc79c2c38746f8841df4a0884e5ba8cb7d2bf0d
