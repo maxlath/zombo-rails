@@ -41,6 +41,7 @@ group :production do
   gem 'rails_12factor', '0.0.2'
 end
 
+#Added by Max to avoid 'method missing' errors
 gem 'actionmailer'
 gem 'activerecord'
 
